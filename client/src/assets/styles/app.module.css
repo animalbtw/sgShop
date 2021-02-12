@@ -1,0 +1,38 @@
+.appWrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+.appWrapper_container {
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .appWrapper_container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .appWrapper_container {
+        max-width: 750px;
+        margin: 10px 20px 0 20px
+    }
+}
+
+@media (max-width: 767px) {
+    .appWrapper_container {
+        max-width: none;
+    }
+}
+
+
+
+.appWrapper_container_content {
+    margin: 10% 0 0 0;
+    font-family: Montserrat-SemiBold, serif;
+
+}

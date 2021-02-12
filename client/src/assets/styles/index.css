@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: local(Montserrat-Bold), url("../fonts/Montserrat-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: local(Montserrat-Regular), url("../fonts/Montserrat-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: local(Montserrat-SemiBold), url("../fonts/Montserrat-SemiBold.otf") format("opentype");
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: local(Montserrat-Regular), url("../fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: Montserrat-Regular, serif;
+    margin: 0;
+}

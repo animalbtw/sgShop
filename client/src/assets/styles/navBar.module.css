@@ -1,0 +1,18 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBar_link {
+
+}
+
+.navBar_link_img {
+    width: 25px;
+    height: 25px;
+    transition: .2s;
+}
+
+.navBar_link_img:hover {
+    filter: invert(47%) sepia(48%) saturate(3297%) hue-rotate(300deg) brightness(102%) contrast(93%);
+}
